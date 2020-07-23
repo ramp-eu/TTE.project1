@@ -6,8 +6,8 @@ Amend as necessary...
 
 ## How to build an image
 
-The [Dockerfile](https://github.com/jason-fox/TTE.project1/blob/master/docker/Dockerfile) associated with this image
-can be used to build an image in several ways:
+The [Dockerfile](https://github.com/jason-fox/TTE.project1/blob/master/docker/Dockerfile) associated with this image can
+be used to build an image in several ways:
 
 -   By default, the `Dockerfile` retrieves the **latest** version of the codebase direct from GitHub (the `build-arg` is
     optional):

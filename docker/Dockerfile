@@ -42,7 +42,7 @@ WORKDIR /opt/component
 RUN \
 	# Ensure that Git is installed prior to running npm install
 	apt-get update && \
-	apt-get install -y git && \
+	apt-get install -y --no-install-recommends git && \
 	npm install pm2@3.2.2 -g && \
 	echo "INFO: npm install --production..." && \
 	npm install --production && \
@@ -50,7 +50,9 @@ RUN \
 	apt-get clean && \
 	apt-get remove -y git && \
 	apt-get -y autoremove && \
-	chmod +x docker/entrypoint.sh
+	chmod +x docker/entrypoint.sh && \
+	apt-get clean && \
+	rm -rf /var/lib/apt/lists/*
 
 USER node
 ENV NODE_ENV=production
