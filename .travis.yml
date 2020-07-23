@@ -5,26 +5,18 @@ branches:
 jobs:
   include:
     - stage: test
-      name: "Context Provider"
+      name: "Component Tests"
       language: node_js
       node_js:
-        - "10"
-      install:
-        - npm install -C ./context-provider
-      script:
-        - npm test -C ./context-provider
-     
-    - stage: test
-      name: "Documentation Tests"
-      language: node_js
-      node_js:
-        - "10"
+        - "12"
       install:
         - npm install
+      before_script:
+        - npm run lint
       script:
-        - npm run lint:md
-        - npm run lint:text
-
+        - npm test
+      after_script:
+        - npm run test:coveralls
 
 notifications:
   on_success: change
