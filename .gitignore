@@ -34,6 +34,7 @@ jspm_packages/
 .npm
 .eslintcache
 .nyc_output/
+coverage/
 *.tgz
 .env
 .next
