@@ -1,6 +1,6 @@
 # <TITLE>
 
-[![License: APGL](https://img.shields.io/github/license/telefonicaid/iotagent-ul.svg)](https://opensource.org/licenses/AGPL-3.0)
+[![License: MIT](https://img.shields.io/github/license/telefonicaid/iotagent-ul.svg)](https://opensource.org/licenses/AGPL-3.0)
 [![Docker badge](https://img.shields.io/docker/pulls/fiware/iotagent-ul.svg)](https://hub.docker.com/r/fiware/iotagent-ul/)
 <br/>
 [![Documentation badge](https://img.shields.io/readthedocs/fiware-iotagent-ul.svg)](http://fiware-iotagent-ul.readthedocs.io/en/latest/?badge=latest)
@@ -26,14 +26,6 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [API](#api)
 -   [Testing](#testing)
 -   [License](#license)
-
-
-## Table of Contents
-
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-- [License](#license)
 
 ## Background
 
@@ -62,6 +54,27 @@ Information about how to use the <Name of component> can be found in the [User &
 
 The following features are listed as [deprecated](docs/deprecated.md).
 ```
+
+## API
+
+```
+Definition of the API interface:
+
+Information about the API of  the <Name of component> can be found in the [API documentation](docs/api.md).
+
+```
+
+## Testing
+
+```
+How to test the component
+
+For performing a basic end-to-end test, you have to follow the step below. A detailed description about how to run tests can be found [here].
+
+> npm test
+
+```
+
 
 
 ## License
