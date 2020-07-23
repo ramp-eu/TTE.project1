@@ -14,20 +14,18 @@
   "scripts": {
     "start": "node ./src/init",
     "test": "nyc --reporter=text mocha -- --recursive 'test/**/*.js' --reporter spec --exit",
-    "test:coverage": "istanbul cover _mocha -- --recursive 'test/**/*.js' --reporter spec --exit",
+    "test:coverage": "nyc --reporter=lcov mocha -- --recursive 'test/**/*.js' ",
     "test:coveralls": "npm run test:coverage && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
     "lint": "eslint src/ test/ --cache --fix",
     "prettier": "prettier --config .prettierrc.json --write **/**/*.js  **/*.js *.js"
   },
-  "dependencies": {
-    "coveralls": "^3.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "coveralls": "^3.1.0",
     "eslint": "~7.5.0",
     "eslint-config-tamia": "~7.2.5",
     "eslint-plugin-prettier": "~3.1.2",
     "husky": "~4.2.5",
-    "istanbul": "~0.4.5",
     "mocha": "8.0.1",
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^15.1.0",
