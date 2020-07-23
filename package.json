@@ -1,0 +1,55 @@
+{
+  "name": "iotagent-isoxml",
+  "license": "AGPL-3.0-only",
+  "description": "IoT Agent for ADAPT",
+  "version": "0.0.1",
+  "main": "lib/iotagent-isoxml",
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jason-fox/iotagent-ADAPT.git"
+  },
+  "scripts": {
+    "start": "node ./bin/iotagent-isoxml",
+    "test": "mocha --recursive 'test/**/*.js' --reporter spec --timeout 3000 --ui bdd --exit",
+    "test:coverage": "nyc --reporter=text mocha -- --recursive 'test/**/*.js' --reporter spec --exit",
+    "lint": "eslint src/ test/ --cache --fix",
+    "prettier": "prettier --config .prettierrc.json --write **/**/*.js  **/*.js *.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "~7.5.0",
+    "eslint-config-tamia": "~7.2.5",
+    "eslint-plugin-prettier": "~3.1.2",
+    "husky": "~4.2.5",
+    "istanbul": "~0.4.5",
+    "mocha": "8.0.1",
+    "nock": "13.0.2",
+    "nyc": "^15.1.0",
+    "prettier": "~2.0.5",
+    "should": "13.2.3",
+    "sinon": "~9.0.1"
+  },
+  "keywords": [],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --config .prettierrc.json --write",
+      "git add"
+    ],
+    "*.md": [
+      "prettier --no-config --tab-width 4 --print-width 120 --write --prose-wrap always",
+      "git add"
+    ],
+    "*.yml": [
+      "prettier --no-config --write",
+      "git add"
+    ]
+  }
+}
