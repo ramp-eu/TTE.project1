@@ -6,6 +6,7 @@
 [![Documentation Status](https://readthedocs.org/projects/tte-project1/badge/?version=latest)](https://tte-project1.readthedocs.io/en/latest/?badge=latest)
 [![Build badge](https://img.shields.io/travis/ramp-eu/TTE.project1.svg)](https://travis-ci.org/ramp-eu/TTE.project1/)
 [![Coverage Status](https://coveralls.io/repos/github/ramp-eu/TTE.project1/badge.svg?branch=master)](https://coveralls.io/github/ramp-eu/TTE.project1?branch=master)
+[![Codacy grade](https://img.shields.io/codacy/grade/99310c5c4332439197633912a99d2e3c)](https://www.codacy.com/manual/ramp-eu/TTE.project1)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4187/badge)](https://bestpractices.coreinfrastructure.org/projects/4187)
 
 ```text
@@ -14,6 +15,18 @@ The Badges above demonstrate testing, code coverage
 and commitment to coding standards (since the code is linted on commit).
 
 The links need to be amended to point to the correct repo.
+
+Sign up for:
+
+- CI Test system - e.g. Travis
+- A Documentation website - e.g. ReadTheDocs
+- Static Code Analysis tool - e.g. Codacy
+- CII Best Practices
+
+Only CII Best Practices (and its badge) is mandatory. Any equivalent public automated tools for the other three may be used.
+
+Note that the CII Best Practices questionaire will request evidence of tooling used.
+
 ```
 
 ```text
