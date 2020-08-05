@@ -21,7 +21,7 @@ Sign up for:
 - CI Test system - e.g. Travis
 - A Documentation website - e.g. ReadTheDocs
 - Static Code Analysis tool - e.g. Codacy
-- CII Best Practices
+- CII Best Practices https://bestpractices.coreinfrastructure.org
 
 Only CII Best Practices (and its badge) is mandatory. Any equivalent public automated tools for the other three may be used.
 
