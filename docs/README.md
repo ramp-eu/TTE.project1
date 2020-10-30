@@ -45,12 +45,18 @@ components of the demo.
 ```
 
 #### API
-
+Detailed descriptions of the demo component APIs are available in the [API documentation](api.md) 
 ```
-Definition of the API interface:
+Within the docs folder, the "api.md" is to be filled with the definition of component APIs.
 
-Information about the API of  the <Name of component> can be found in the [API documentation](api.md).
+Special emphasis will be put on the description of NGSI APIs, providing tas many details as possible on the 
+the subscriptions, registrations, requests, and responses associated with each component of the demo. 
 
+Non-NGSI APIs will be fully described only if they define an interface to an NGSI-Compliant component.
+
+Non-NGSI APIs in charge of enabling interfaces between components that are totally opaque from the NGSI
+point of view will be listed and/or shortly described if they are of relevance to understand, install or
+use the demo.
 ```
 
 #### Testing
