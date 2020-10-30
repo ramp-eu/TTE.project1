@@ -20,9 +20,16 @@
 #### Proposed Solution
 
 ## Setup Overview
-#### Implementation Notes
-#### Deployment Notes
-#### 
+```
+Overview the Docker-Based Implementation contributed in this Setup (This section is associated with the slide "Setup Overview: Docker-based Implementation" in D3)
+```
+
+#### Architecture
+A more detailed description of this architecture is available here [Architecture Description](architecture.md)
+```
+(This section is associated with the slide "Setup Overview: Architecture" in D3)
+```
+
 ```
 Background information and links to relevant terms
 ```
@@ -62,9 +69,12 @@ use the demo.
 #### Testing
 
 ```
-How to test the component
-
-For performing a basic end-to-end test, you have to follow the step below. A detailed description about how to run tests can be found [here].
+This section will contribute step-by-step procedures to perform a basic end-to-end test of the setup 
+features described in the mid-term review demo. The definition of these procedures may include:
+- Description of the use case that the test aim to cover
+- Definition of the required inputs and steps to retrieve meaningful outputs
+- A convenient simulator or simulated/dummy datasets to validate the use case in cases where the source 
+code, binaries, and/or functionality of a given component cannot be shared as part of the public demo.
 ```
 
 
