@@ -28,7 +28,7 @@ Background information and links to relevant terms
 ```
 ## Demo
 #### Install
-In order to install the components of our demo follow the instructions provided in this file: [Installation & Administration Guide](installationguide.md)
+In order to install the components of our demo, follow the instructions provided in this file: [Installation & Administration Guide](installationguide.md)
 ```
 Within the docs folder, the "installationguide.md" is to be filled with information on how to install the demo components
 and their dependencies.
@@ -38,13 +38,10 @@ of a given component cannot be shared as part of the public demo due to privacy-
 ```
 
 #### Usage
-
+Information about how to use the demo components can be found in the [User & Programmers Manual](usermanual.md).
 ```
-How to use the component
-
-Information about how to use the <Name of component> can be found in the [User & Programmers Manual](usermanual.md).
-
-The following features are listed as [deprecated](docs/deprecated.md).
+Within the docs folder, the "installationguide.md" is to be filled with information on how to use and configure the
+components of the demo.
 ```
 
 #### API
