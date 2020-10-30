@@ -28,13 +28,10 @@ Background information and links to relevant terms
 ```
 ## Demo
 #### Install
-
+In order to install the components of our demo follow the instructions provided in this file [Installation & Administration Guide](installationguide.md)
 ```
-How to install the TTE components:
-Information about how to install the following components can be found at the corresponding section of this document [Installation & Administration Guide](installationguide.md) :
-- <Name of component>
-- <Name of component>
-- <Name of component>
+Within the docs folder, the "installationguide.md" is to be filled with information on how to install the demo components and their dependencies.
+A convenient simulator or simulated/dummy datasets will be contributed when the source code, binaries, and/or functionality of a given component cannot be shared as part of the public demo due to privacy- or deployment-related issues.
 ```
 
 #### Usage
