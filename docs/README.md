@@ -70,7 +70,8 @@ use the demo.
 
 ```
 This section will contribute step-by-step procedures to perform a basic end-to-end test of the setup 
-features described in the mid-term review demo. The definition of these procedures may include:
+features described in the mid-term review demo. For each test, the definition of the step-by-tep procedure
+may consist of:
 - Description of the use case that the test aim to cover
 - Definition of the required inputs and steps to retrieve meaningful outputs
 - A convenient simulator or simulated/dummy datasets to validate the use case in cases where the source 
