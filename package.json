@@ -19,7 +19,8 @@
     "lint": "eslint src/ test/ --cache --fix",
     "prettier": "prettier --config .prettierrc.json --write **/**/*.js  **/*.js *.js",
     "prettier:text": "prettier  --parser markdown '*.md' 'docker/*.md' 'docs/*.md' --tab-width 4 --print-width 120 --write --prose-wrap always",
-    "lint:md": "remark  -f '*.md' 'docker/*.md' 'docs/*.md'"
+    "lint:md": "remark  -f '*.md' 'docker/*.md' 'docs/*.md'",
+    "lint:text": "textlint 'README.md' 'docs/*.md'"
   },
   "dependencies": {},
   "devDependencies": {
@@ -33,7 +34,11 @@
     "nyc": "^15.1.0",
     "prettier": "~2.0.5",
     "remark-cli": "^6.0.1",
-    "remark-preset-lint-recommended": "^3.0.4"
+    "remark-preset-lint-recommended": "^3.0.4",
+    "textlint": "~11.7.6",
+    "textlint-rule-common-misspellings": "~1.0.1",
+    "textlint-rule-terminology": "~2.1.4",
+    "textlint-rule-write-good": "~1.6.2"
   },
   "keywords": [],
   "husky": {
@@ -54,5 +59,13 @@
       "prettier --no-config --write",
       "git add"
     ]
+  },
+  "textlint": {
+    "rules": {
+      "common-misspellings": true,
+      "terminology": {
+        "defaultTerms": true
+      }
+    }
   }
 }
