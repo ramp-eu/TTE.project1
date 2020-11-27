@@ -18,7 +18,7 @@ The links need to be amended to point to the correct repo.
 
 Sign up for:
 
-- CI Test system - e.g. Travis
+- CI Test system - e.g. GitHub Actions, Travis
 - A Documentation website - e.g. ReadTheDocs
 - Static Code Analysis tool - e.g. Codacy
 - CII Best Practices https://bestpractices.coreinfrastructure.org
